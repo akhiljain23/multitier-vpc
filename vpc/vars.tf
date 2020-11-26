@@ -30,10 +30,6 @@ variable "frontend_count" {
   default     = 1
 }
 
-variable "backend_count" {
-  description = "number of back end zones"
-  default     = 1
-}
 
 ##############################################################################
 # Network variables
@@ -42,8 +38,6 @@ variable "backend_count" {
 variable "frontend_cidr_blocks" {
 }
 
-variable "backend_cidr_blocks" {
-}
 ##############################################################################
 
 
